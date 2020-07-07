@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<body>
+  <header class="header-bg"> 
+    <div class="logobody">
+      <svg viewBox="0 0 600 300">
+        <!-- Symbol-->
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="50%" dy=".35em">STEAM.GG|</text>
+        </symbol>
+        <!-- Duplicate symbols-->
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+      </svg>
+    </div>
+    <div class="container">
+      <input type="checkbox" id="btnControl"/>
+      <label class="btn" for="btnControl">
+        <a  routerLink="/homepage" routerLinkActive="active" class="buttonInner triggerHighlight" id="btnLeft">	<span>CONNECT WITH STEAM</span></a>
+      </label>
+    </div>
+  </header>
+</body>
+
+<router-outlet></router-outlet>

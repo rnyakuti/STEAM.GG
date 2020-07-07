@@ -1,0 +1,351 @@
+@charset "UTF-8";
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.45;
+  color: #141414;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.slogan{
+    color: mediumaquamarine;
+    font-size: 1em;
+}
+
+
+
+
+.logos{
+  background-image: url("LOGO.png");
+  background-size: contain;
+}
+.buttonInner {
+	border: 1.2px solid white;
+	position: absolute;
+	top: calc(50% - 30px);
+	right: 6px;
+	width: 35px;
+	height: 60px;
+	background-color: #000000;
+	border-radius: 30px;
+	padding: 0 0 0 60px;
+	background-image: url("steam.png");
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	overflow: hidden;
+}
+
+.buttonInner span {
+	font-size: 0.7em;
+	display: block;
+	float: left;
+	width: 100%;
+	color: #fff;
+	text-align: left;
+	line-height: 60px;
+}
+ .buttonInner:hover {
+	width: 208px;
+
+}
+
+
+
+#btnControl {
+  display: none;
+}
+
+.buttonInner:hover
+{
+  background-color: green;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 900px;
+}
+
+header {
+  color: white;
+  background: #430c8e;
+  padding: 0 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+height: 10%;
+}
+
+.header-bg
+{
+ background-color: #430c8e;
+
+}
+
+section {
+  background: #fff;
+  color: #1c262b;
+  padding: 3.5rem 0;
+}
+@media (max-width: 43.75em) {
+  section {
+    padding: 2rem 0;
+  }
+}
+
+section h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 0 1rem;
+}
+@media (max-width: 43.75em) {
+  section h3 {
+    font-size: 1.5rem;
+  }
+}
+section li {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+section p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.col, .col-7, .col-3, .col-5 {
+  margin: 0 1.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-7 {
+  width: 64%;
+}
+@media (max-width: 43.75em) {
+  .col-7 {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.col-3 {
+  width: 29%;
+}
+@media (max-width: 43.75em) {
+  .col-3 {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.col-5 {
+  width: 30%;
+}
+@media (max-width: 34.375em) {
+  .col-5 {
+    width: 60%;
+    margin: 0;
+  }
+}
+
+
+.features {
+  text-align: center;
+  padding: 1rem;
+}
+.features:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+@media (max-width: 43.75em) {
+  .features {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .features:last-child {
+    border: none;
+  }
+}
+.features i {
+  font-size: 4rem;
+  margin: 0 0 2rem 0;
+}
+@media (max-width: 43.75em) {
+  .features i {
+    font-size: 1.5rem;
+    width: 2rem;
+    text-align: center;
+    margin: 0 0 1rem 0;
+    float: left;
+  }
+}
+.features p {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+}
+@media (max-width: 43.75em) {
+  .features p {
+    margin-left: 3rem;
+  }
+}
+
+blockquote {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+blockquote:before {
+  display: inline-block;
+  color: #007ece;
+  font-size: 2rem;
+  content: '\201C';
+}
+blockquote p {
+  margin: 0;
+  display: inline;
+  font-size: 1.5rem;
+}
+@media (max-width: 43.75em) {
+  blockquote p {
+    font-size: 1.2rem;
+  }
+}
+blockquote cite {
+  font-size: 1rem;
+  display: block;
+  margin: .5rem 0 0 1.2rem;
+  text-style: italic;
+}
+@media (max-width: 43.75em) {
+  blockquote cite {
+    font-size: .8rem;
+  }
+}
+blockquote cite:before {
+  content: '–';
+}
+
+footer {
+  background: #2d2b2a;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: .8rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li a {
+  display: block;
+  padding: .4rem .7rem;
+  font-size: .9rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+footer ul li a:hover {
+  color: white;
+}
+
+.text--center {
+  text-align: center;
+}
+/**********************/
+
+/* Main styles */
+
+.text {
+  fill: none;
+  stroke-width: 1;
+  stroke-dasharray: 70;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear;
+}
+.text:nth-child(5n + 1) {
+  stroke: white;
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+.text:nth-child(5n + 2) {
+  stroke: #0eced7;
+  -webkit-animation-delay: -2.4s;
+  animation-delay: -2.4s;
+}
+.text:nth-child(5n + 3) {
+  stroke: #00CFC8;
+  -webkit-animation-delay: -3.6s;
+  animation-delay: -3.6s;
+}
+.text:nth-child(5n + 4) {
+  stroke: white;
+  -webkit-animation-delay: -4.8s;
+  animation-delay: -4.8s;
+}
+.text:nth-child(5n + 5) {
+  stroke: #03f4fc;
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+.logobody {
+  background: #430c8e;
+  background-size: .2em 100%;
+  font: 4em Open Sans, Impact;
+  text-transform: uppercase;
+  float: left;
+ 
+
+}
+
+svg {
+ float: left;
+ background-color: #430c8e;
+  width: 100%;
+  height: 100%;
+  margin-left: -40px;
+}
